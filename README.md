@@ -14,7 +14,7 @@ for community discussions and proposals.
 
 Head over to the [issues list](https://github.com/WICG/proposals/issues) and search for a topic
 of interest. If you don't find anything there, consider starting a new issue. You are also welcome
-to head over to [Discourse](https://discourse.wicg.io/) and participate there as well. 
+to visit [Discourse](https://discourse.wicg.io/) and participate there as well. 
 
 (For simplification, we'd like to encourage a center of gravity on Github, but this is by no means 
 a requirement, and it may take some time before there is sufficient content and participation in
@@ -64,4 +64,9 @@ The issue discussions are grouped by category (as they were on Discourse):
     Discussion of all standards related to Web Components. 
     (See also: [Web Components category](https://discourse.wicg.io/c/web-components/9) on Discourse.)
     
+## Have a proposal?
+
+Feel free to write-up your proposal in a new issue. All proposals should be tracked by an issue
+(and we'll label it with [proposal](https://github.com/WICG/proposals/labels/proposal) to make
+these easily searchable).
     
