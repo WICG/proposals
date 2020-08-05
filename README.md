@@ -7,7 +7,7 @@ started on the [WICG's discourse](https://discourse.wicg.io/) site with the inte
 broadest possible community might have a chance to review and provide feedback.
 
 Now, in recognition that Github has a (probably larger) community of web developer 
-interest, we are beginning the transition to use this proposals repo as an additional home
+interest, we are beginning the transition to use this repo as an additional home
 for community discussions and proposals.
 
 # Getting Started
