@@ -14,7 +14,7 @@ for community discussions and proposals.
 
 Head over to the [issues list](https://github.com/WICG/proposals/issues) and search for a topic
 of interest. If you don't find anything there, consider starting a new issue. You are also welcome
-to head over to [Discourse](https://discourse.wicg.io/) and participate there as well. 
+to visit [Discourse](https://discourse.wicg.io/) and participate there as well. 
 
 (For simplification, we'd like to encourage a center of gravity on Github, but this is by no means 
 a requirement, and it may take some time before there is sufficient content and participation in
@@ -64,4 +64,22 @@ The issue discussions are grouped by category (as they were on Discourse):
     Discussion of all standards related to Web Components. 
     (See also: [Web Components category](https://discourse.wicg.io/c/web-components/9) on Discourse.)
     
-    
+## Have a proposal?
+
+Proposals are an opportunity for you to seek interest from the web developer community to begin an
+incubation. We welcome all proposals related to the web platform here. For more information about the
+incubation process, [see the admin repo's README](https://github.com/WICG/admin/blob/gh-pages/README.md).
+
+Feel free to write-up your proposal in a new issue. All proposals should be tracked by an issue
+(and we'll label it with [proposal](https://github.com/WICG/proposals/labels/proposal) to make
+these easily searchable).
+
+Please no more than one issue per proposal.
+
+If you would like to have the proposal as a separate (from the issue) markdown document, you are 
+welcome to submit a PR for the proposal into the proposal repo--we still ask that you file an issue
+to track the proposal, and link to the separate markdown document so that discussion of the proposal
+can be held in the issue. 
+
+Please note that all proposals in this repo (including those in separate markdown documents) have no
+official status in the WICG.
