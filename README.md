@@ -66,7 +66,20 @@ The issue discussions are grouped by category (as they were on Discourse):
     
 ## Have a proposal?
 
+Proposals are an opportunity for you to seek interest from the web developer community to begin an
+incubation. We welcome all proposals related to the web platform here. For more information about the
+incubation process, [see the admin repo's README](https://github.com/WICG/admin/blob/gh-pages/README.md).
+
 Feel free to write-up your proposal in a new issue. All proposals should be tracked by an issue
 (and we'll label it with [proposal](https://github.com/WICG/proposals/labels/proposal) to make
 these easily searchable).
-    
+
+Please no more than one issue per proposal.
+
+If you would like to have the proposal as a separate (from the issue) markdown document, you are 
+welcome to submit a PR for the proposal into the proposal repo--we still ask that you file an issue
+to track the proposal, and link to the separate markdown document so that discussion of the proposal
+can be held in the issue. 
+
+Please note that all proposals in this repo (including those in separate markdown documents) have no
+official status in the WICG.
