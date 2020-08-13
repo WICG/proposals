@@ -63,23 +63,31 @@ The issue discussions are grouped by category (as they were on Discourse):
 * **[Web Components](https://github.com/WICG/proposals/labels/Category%3A%20Web%20Components)** :
     Discussion of all standards related to Web Components. 
     (See also: [Web Components category](https://discourse.wicg.io/c/web-components/9) on Discourse.)
-    
-## Have a proposal?
 
-Proposals are an opportunity for you to seek interest from the web developer community to begin an
-incubation. We welcome all proposals related to the web platform here. For more information about the
-incubation process, [see the admin repo's README](https://github.com/WICG/admin/blob/gh-pages/README.md).
+To help bridge Discourse discussions with those happening in this Repo, we plan to setup an automated
+system to notify the Discourse community when new discussions are happening in this Repo.
 
-Feel free to write-up your proposal in a new issue. All proposals should be tracked by an issue
-(and we'll label it with [proposal](https://github.com/WICG/proposals/labels/proposal) to make
-these easily searchable).
+## Have a proposal or topic to discuss?
 
-Please no more than one issue per proposal.
+This repo uses the issue tracker as a way to collect and organize all proposals and discussion topics.
+Both specific proposals and discussion topics are welcome as new issues. After searching for an existing
+issue related to your proposal or discussion topic and not finding a good match, please file a new issue!
+
+The issues allow our WICG community an opportunity to find and discuss topics of interest to the web 
+platform, and to seek interest for moving an idea or proposal into a dedicated incubation in its own 
+repository here in the WICG (or elsewhere if a more relevant standards community exists). For more 
+information about the incubation process,
+[see the admin repo's README](https://github.com/WICG/admin/blob/gh-pages/README.md).
+
+So, go ahead and write-up your proposal or start your discussion in a new issue. For ease of searching, 
+please keep one issue focused on one topic; file a new issue to discuss topical forks. Formal or informal
+proposals should also be tracked by separate issues (and we'll label it with 
+[proposal](https://github.com/WICG/proposals/labels/proposal) to make these more easily discoverable).
 
 If you would like to have the proposal as a separate (from the issue) markdown document, you are 
 welcome to submit a PR for the proposal into the proposal repo--we still ask that you file an issue
 to track the proposal, and link to the separate markdown document so that discussion of the proposal
-can be held in the issue. 
+can be held in the issue.
 
 Please note that all proposals in this repo (including those in separate markdown documents) have no
-official status in the WICG.
+official status in the WICG as incubations.
