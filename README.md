@@ -2,92 +2,115 @@
 
 # Welcome to the WICG Proposals Repo!
 
-Previously, we invited all discussions and suggestions/proposals for the web platform to be
-started on the [WICG's discourse](https://discourse.wicg.io/) site with the intent that the 
-broadest possible community might have a chance to review and provide feedback.
+This is the WICG proposals repo, a place for well-formed ideas to start their incubation
+journey. Plan to use this repo's [issue tracker](https://github.com/WICG/proposals/issues)
+for submitting and discussing new proposals much like
+[Discourse threads](https://discourse.wicg.io/) were used previously. Discourse will remain
+a good home for less well-formed ideas to germinate, for early explorations, and for other
+discussions. But if you have a well-formed idea, you may skip Discourse and start an issue
+here. Think of Discourse as the potential destination for earlier, less-well-formed concepts,
+and this repo's issue tracker for more crystalized proposals.
 
-Now, in recognition that Github has a (probably larger) community of web developer 
-interest, we are beginning the transition to use this repo as an additional home
-for community discussions and proposals.
+Please note that all proposals in this repo (including those in separate markdown documents)
+have no official status in the WICG as incubations.
 
-# Getting Started
+## Evolving from Discourse
 
-Head over to the [issues list](https://github.com/WICG/proposals/issues) and search for a topic
-of interest. If you don't find anything there, consider starting a new issue. You are also welcome
-to visit [Discourse](https://discourse.wicg.io/) and participate there as well. 
+Previously, we used [Discourse discussions](https://discourse.wicg.io/) for anything that 
+wasn't an official incubation (i.e., an incubation with its own repo). That forum was host
+to all discussions, early explorations, suggestions, and proposals for the web platform. 
+The goal was to help establish our community where those who participated in developing 
+web standards and those who didn't have the time but still wanted to influence/advance the
+web could mingle and share ideas. In short, bringing together the broadest possible 
+community of interested developers to give and receive feedback. Our goal was largely 
+successful.
 
-(For simplification, we'd like to encourage a center of gravity on Github, but this is by no means 
-a requirement, and it may take some time before there is sufficient content and participation in
-this repo.)
+As time passed, the developer ecosystem shifted. We now see that GitHub has a larger 
+community of web developer interest than ever before, is the primary host of specification
+development for major web standards organizations and has great tools and integration for
+project and issue management. We also see an opportunity to provide more direct guidance
+on how to start an incubation, by creating this dedicated home for future incubations to
+be proposed that is distinct from other ideas, explorations, and discussions about the web 
+platform.
 
-## Search issues by category
+This proposals repo will meet these changing needs. Here in GitHub you can easily extend your
+existing repo and issue monitoring techniques to keep track of what's being proposed.
+Additionally, this gives us a chance to clarify the WICG process for starting new incubations:
+rather than ask that proposals for new incubations be started on Discourse (intermingled with
+all other Discourse conversations), instead well-formed ideas should be filed as issues here in
+this repo, making it clear that these proposal issues intend to begin life as an incubation.
+Our expectations for evaluation of new proposals remains the same: as soon as sufficient interest
+is shown in the proposal's issue thread (notably from potential implementers), the WICG chairs
+will enable a team of editors to manage the proposal, and those team members can begin work in
+a new repo or move ownership of an existing GitHub repo to WICG. For more information about the
+evaluation and incubation process, see
+[the admin repo's README file](https://github.com/WICG/admin/blob/gh-pages/README.md).
 
-The issue discussions are grouped by category (as they were on Discourse):
+We continue to recommend that our community participate in Discourse for less well-formed ideas
+to germinate, for early explorations, and for other discussions. As these ideas, explorations,
+and discussions mature, they may form into a proposal which should then be filed as an issue in
+this repo.
 
-* **[APIs](https://github.com/WICG/proposals/labels/Category%3A%20APIs)** : 
-    All discussions about JS APIs. 
-    (See also: [APIs category](https://discourse.wicg.io/c/apis/6) on Discourse.)
-* **[HTML](https://github.com/WICG/proposals/labels/Category%3A%20HTML)** : 
-    For all HTML-related discussions (not only the HTML standard but any markup-related ideas).
-    (See also: [HTML category](https://discourse.wicg.io/c/html/10) on Discourse.)
-* **[CSS](https://github.com/WICG/proposals/labels/Category%3A%20CSS)** : 
-    This category is for all CSS-related standards. Subcategories can be created for relevant
-    topics. 
-    (See also: [CSS category](https://discourse.wicg.io/c/css/8) on Discourse.)
-* **[Uncategorized](https://github.com/WICG/proposals/labels/Category%3A%20Uncategorized)** :
-    Topics that don't need a category, or don't fit into any other existing category. 
-    (See also: [Uncategorized category](https://discourse.wicg.io/c/uncategorized/1) on Discourse.)
-* **[Meta](https://github.com/WICG/proposals/labels/Category%3A%20meta)** : 
-    Discussion about this proposals repo, its organization, how it works, and how we can improve
-    it. 
-    (See also: [meta category](https://discourse.wicg.io/c/meta/3) on Discourse.)    
-* **[JS](https://github.com/WICG/proposals/labels/Category%3A%20JS)** : 
-    Category for discussing JS as a language. 
-    (See also: [JS category](https://discourse.wicg.io/c/js/18) on Discourse.)
-* **[Security](https://github.com/WICG/proposals/labels/Category%3A%20Security)** : 
-    Topics pertaining to web security, client-side protections, improved site security, etc. 
-    (See also: [Security category](https://discourse.wicg.io/c/security/21) on Discourse.)
-* **[Protocols](https://github.com/WICG/proposals/labels/Category%3A%20protocols)** : 
-    This section is for anything relating to protocols such as HTTP, Web Sockets, & JSON-based
-    protocols. 
-    (See also: [protocols category](https://discourse.wicg.io/c/protocols/14) on Discourse.)
-* **[WASM](https://github.com/WICG/proposals/labels/Category%3A%20WASM)** : 
-    This is the forum for discussions about WebAssembly: its design, implementation, etc. 
-    (See also: [asm.js category](https://discourse.wicg.io/c/asm-js/16) on Discourse.)
-* **[Architecture](https://github.com/WICG/proposals/labels/Category%3A%20Architecture)** : 
-    For items related to web Architecture or architectural components which do not otherwise fit.
-    (See also: [Architecture category](https://discourse.wicg.io/c/architecture/13) on Discourse.)
-* **[Media & RTC](https://github.com/WICG/proposals/labels/Category%3A%20Media%20%26%20RTC)** : 
-    For Media (video/audio) and Real-Time Communications discussions. 
-    (See also: [Media and Real-Time Communications category](https://discourse.wicg.io/c/mediartc/20) on Discourse.)
-* **[Web Components](https://github.com/WICG/proposals/labels/Category%3A%20Web%20Components)** :
-    Discussion of all standards related to Web Components. 
-    (See also: [Web Components category](https://discourse.wicg.io/c/web-components/9) on Discourse.)
+## What does a proposal look like?
 
-To help bridge Discourse discussions with those happening in this Repo, we plan to setup an automated
-system to notify the Discourse community when new discussions are happening in this Repo.
+A proposal outlines a particular problem or challenge on the web and offers a potential concrete
+solution. Without being too prescriptive, you know you've got a proposal when you can articulate
+a specific way (proceedurally, algorithmicaly, declaratively) that a new or current web technology
+solves an existing problem or challenge. If the problem is unclear, or the potential solution is
+too abstract you're not quite there yet.
 
-## Have a proposal or topic to discuss?
+For example, this is not a proposal:
 
-This repo uses the issue tracker as a way to collect and organize all proposals and discussion topics.
-Both specific proposals and discussion topics are welcome as new issues. After searching for an existing
-issue related to your proposal or discussion topic and not finding a good match, please file a new issue!
+> "Websites have lots of bugs because they don't get updated or because browsers change their 
+> behavior over time. There should be a universal way for users to report bugs to websites so that 
+> they get fixed."
 
-The issues allow our WICG community an opportunity to find and discuss topics of interest to the web 
-platform, and to seek interest for moving an idea or proposal into a dedicated incubation in its own 
-repository here in the WICG (or elsewhere if a more relevant standards community exists). For more 
-information about the incubation process,
-[see the admin repo's README](https://github.com/WICG/admin/blob/gh-pages/README.md).
+Instead, a proposal might be:
 
-So, go ahead and write-up your proposal or start your discussion in a new issue. For ease of searching, 
-please keep one issue focused on one topic; file a new issue to discuss topical forks. Formal or informal
-proposals should also be tracked by separate issues (and we'll label it with 
-[proposal](https://github.com/WICG/proposals/labels/proposal) to make these more easily discoverable).
+> "Websites have lots of bugs because they don't get updated or because browsers change their 
+> behavior over time. One way to solve this is to create an experience in the browser that allows
+> users to record a set of steps that reproduce the problem, and then standardize the format for
+> these replay instructions, and provide an API to allow sites to capture this feedback or an HTTP
+> header to post this feedback back to their site. Below I describe the proposed format and API...
+> `<snip>`" 
 
-If you would like to have the proposal as a separate (from the issue) markdown document, you are 
-welcome to submit a PR for the proposal into the proposal repo--we still ask that you file an issue
-to track the proposal, and link to the separate markdown document so that discussion of the proposal
-can be held in the issue.
+## Proposals in issues vs. separate markdown documents?
 
-Please note that all proposals in this repo (including those in separate markdown documents) have no
-official status in the WICG as incubations.
+If you would like to make a proposal as a separate markdown document (if for example, it was
+developed in a separate repo) you are welcome to link to it from the proposal issue; just provide
+a bit of high-level context on the problem and proposed solution in the issue as well.
+Alternatively, if you'd like to use the proposal repository itself to host a separate markdown
+document, you are welcome to submit a PR for it— we still ask that you file an issue to track
+your proposal and provide context as previously mentioned. This will make it easier for our entire
+community to use the issue tracker to search through all proposals.
+
+## Getting Started
+
+Is your proposal unique? Head over to the [issues list](https://github.com/WICG/proposals/issues)
+and search for it; if it was suggested by someone else give it your support with a 👍 or leave a
+comment. If you don't find anything there, consider starting a new issue. (You are also welcome
+to visit [Discourse](https://discourse.wicg.io/) and search there as well, especially while this
+repo is first getting populated). 
+
+## Search proposals by category
+
+The proposals are grouped by category (as discussions are on Discourse):
+
+| Label | Short description | Discourse category |
+|-------|-------------------|--------------------|
+| **[APIs](https://github.com/WICG/proposals/labels/Category%3A%20APIs)** | All proposals about JS APIs. | [APIs](https://discourse.wicg.io/c/apis/6) |
+| **[HTML](https://github.com/WICG/proposals/labels/Category%3A%20HTML)** | HTML-related proposals (not only the HTML standard but any markup-related ideas). | [HTML](https://discourse.wicg.io/c/html/10) |
+| **[CSS](https://github.com/WICG/proposals/labels/Category%3A%20CSS)** | CSS-related proposals. | [CSS](https://discourse.wicg.io/c/css/8) |
+| **[Uncategorized](https://github.com/WICG/proposals/labels/Category%3A%20Uncategorized)** | Proposals that don't fit into any other existing category. | [Uncategorized](https://discourse.wicg.io/c/uncategorized/1) |
+| **[Meta](https://github.com/WICG/proposals/labels/Category%3A%20meta)** | Proposals/ideas/discussions about this proposals repo, its organization, how it works, and how we can improve it. | [meta](https://discourse.wicg.io/c/meta/3) |   
+| **[JS](https://github.com/WICG/proposals/labels/Category%3A%20JS)** | JS language proposals. | [JS](https://discourse.wicg.io/c/js/18) |
+| **[Security](https://github.com/WICG/proposals/labels/Category%3A%20Security)** | Proposals with a focus on web security, client-side protections, improved site security, etc. | [Security](https://discourse.wicg.io/c/security/21) |
+| **[Protocols](https://github.com/WICG/proposals/labels/Category%3A%20protocols)** | Proposals for anything relating to protocols such as HTTP, Web Sockets, & JSON-based protocols. | [protocols](https://discourse.wicg.io/c/protocols/14) |
+| **[WASM](https://github.com/WICG/proposals/labels/Category%3A%20WASM)** | Proposals for the WebAssembly language. Also consider reviewing [the WebAssembly Community Group's issue tracker](https://github.com/webassembly/spec/issues). | [asm.js](https://discourse.wicg.io/c/asm-js/16) |
+| **[Architecture](https://github.com/WICG/proposals/labels/Category%3A%20Architecture)** | For proposals related to web architecture or architectural components. | [Architecture](https://discourse.wicg.io/c/architecture/13) |
+| **[Media & RTC](https://github.com/WICG/proposals/labels/Category%3A%20Media%20%26%20RTC)** | For Media (video/audio) and Real-Time Communications proposals. | [Media and Real-Time Communications](https://discourse.wicg.io/c/mediartc/20) |
+| **[Web Components](https://github.com/WICG/proposals/labels/Category%3A%20Web%20Components)** | Proposals for web components. Also consider reviewing [the webcomponents incubation issue tracker](https://github.com/w3c/webcomponents/issues) | [Web Components](https://discourse.wicg.io/c/web-components/9) |
+
+To help bridge Discourse discussions with those happening in this repo, we plan to setup an automated
+system to notify the Discourse community when new proposals are started in this repo.
+
