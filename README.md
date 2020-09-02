@@ -55,7 +55,7 @@ this repo.
 
 A proposal outlines a particular problem or challenge on the web and offers a potential concrete
 solution. Without being too prescriptive, you know you've got a proposal when you can articulate
-a specific way (proceedurally, algorithmicaly, declaratively) that a new or current web technology
+a specific way (procedurally, algorithmically, declaratively) that a new or current web technology
 solves an existing problem or challenge. If the problem is unclear, or the potential solution is
 too abstract you're not quite there yet.
 
