@@ -110,6 +110,7 @@ The proposals are grouped by category (as discussions are on Discourse):
 | **[Architecture](https://github.com/WICG/proposals/labels/Category%3A%20Architecture)** | For proposals related to web architecture or architectural components. | [Architecture](https://discourse.wicg.io/c/architecture/13) |
 | **[Media & RTC](https://github.com/WICG/proposals/labels/Category%3A%20Media%20%26%20RTC)** | For Media (video/audio) and Real-Time Communications proposals. | [Media and Real-Time Communications](https://discourse.wicg.io/c/mediartc/20) |
 | **[Web Components](https://github.com/WICG/proposals/labels/Category%3A%20Web%20Components)** | Proposals for web components. Also consider reviewing [the webcomponents incubation issue tracker](https://github.com/w3c/webcomponents/issues) | [Web Components](https://discourse.wicg.io/c/web-components/9) |
+| **[Web Apps](https://github.com/WICG/proposals/labels/Category%3A%20Web%20Apps)** | Proposals related to bringing App-like behavior to the web | n/a |
 
 To help bridge Discourse discussions with those happening in this repo, we plan to setup an automated
 system to notify the Discourse community when new proposals are started in this repo.
