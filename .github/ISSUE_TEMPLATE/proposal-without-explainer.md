@@ -2,7 +2,7 @@
 name: New Proposal Without an Explainer
 about: If you've got a new idea, but have not created an Explainer elsewhere, use this template
 title: 'Proposal: PROPOSAL NAME'
-labels: no-explainer
+labels: inline-explainer
 assignees: ''
 ---
 
@@ -38,6 +38,6 @@ assignees: ''
 
 *Perform a [self-review](https://w3ctag.github.io/security-questionnaire/). You may think of additional privacy/security considerations other than the ideas listed. If you find no considerations after careful review: "No considerable privacy or security concerns are expected, but we welcome community feedback."*
 
-## Open Questions (Optional)
+## Let’s Discuss (Optional)
 
 *This is a great place to list out questions you'd like others to weigh in on or areas you need feedback on.*

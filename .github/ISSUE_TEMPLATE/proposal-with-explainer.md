@@ -1,8 +1,8 @@
 ---
 name: New Proposal With an Explainer
 about: If you've got a new idea and created an Explainer elsewhere, use this template
-title: 'Proposal: PROPOSAL NAME'
-labels: with-explainer
+title: 'PROPOSAL NAME'
+labels: remote-explainer
 assignees: ''
 ---
 
