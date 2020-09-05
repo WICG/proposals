@@ -1,7 +1,7 @@
 ---
 name: New Proposal Without an Explainer
 about: If you've got a new idea, but have not created an Explainer elsewhere, use this template
-title: 'Proposal: PROPOSAL NAME'
+title: 'PROPOSAL NAME'
 labels: inline-explainer
 assignees: ''
 ---
