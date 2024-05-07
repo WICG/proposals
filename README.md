@@ -2,49 +2,13 @@
 
 # Welcome to the WICG Proposals Repo!
 
-This is the WICG proposals repo, a place for well-formed ideas to start their incubation
+This is the WICG proposals repo, a place for ideas to start their incubation
 journey. Plan to use this repo's [issue tracker](https://github.com/WICG/proposals/issues)
-for submitting and discussing new proposals much like
-[Discourse threads](https://discourse.wicg.io/) were used previously. Discourse will remain
-a good home for less well-formed ideas to germinate, for early explorations, and for other
-discussions. But if you have a well-formed idea, you may skip Discourse and start an issue
-here. Think of Discourse as the potential destination for earlier, less-well-formed concepts,
-and this repo's issue tracker for more crystalized proposals.
+for submitting and discussing new proposals much like the now archived
+[Discourse threads](https://discourse.wicg.io/) were used previously.
 
 Please note that all proposals in this repo (including those in separate markdown documents)
 have no official status in the WICG as incubations.
-
-## Evolving from Discourse
-
-Previously, we used [Discourse discussions](https://discourse.wicg.io/) for anything that 
-wasn't an official incubation (i.e., an incubation with its own repo). That forum was host
-to all discussions, early explorations, suggestions, and proposals for the web platform. 
-The goal was to help establish our community where those who participated in developing 
-web standards and those who didn't have the time but still wanted to influence/advance the
-web could mingle and share ideas. In short, bringing together the broadest possible 
-community of interested developers to give and receive feedback. Our goal was largely 
-successful.
-
-As time passed, the developer ecosystem shifted. We now see that GitHub has a larger 
-community of web developer interest than ever before, is the primary host of specification
-development for major web standards organizations and has great tools and integration for
-project and issue management. We also see an opportunity to provide more direct guidance
-on how to start an incubation, by creating this dedicated home for future incubations to
-be proposed that is distinct from other ideas, explorations, and discussions about the web 
-platform.
-
-This proposals repo will meet these changing needs. Here in GitHub you can easily extend your
-existing repo and issue monitoring techniques to keep track of what's being proposed.
-Additionally, this gives us a chance to clarify the WICG process for starting new incubations:
-rather than ask that proposals for new incubations be started on Discourse (intermingled with
-all other Discourse conversations), instead well-formed ideas should be filed as issues here in
-this repo, making it clear that these proposal issues intend to begin life as an incubation.
-Our expectations for evaluation of new proposals remains the same: as soon as sufficient interest
-is shown in the proposal's issue thread (notably from potential implementers), the WICG chairs
-will enable a team of editors to manage the proposal, and those team members can begin work in
-a new repo or move ownership of an existing GitHub repo to WICG. For more information about the
-evaluation and incubation process, see
-[the admin repo's README file](https://github.com/WICG/admin/blob/gh-pages/README.md).
 
 ## What does a proposal look like?
 
@@ -107,6 +71,35 @@ The proposals are grouped by category (as discussions are on Discourse):
 | **[Web Components](https://github.com/WICG/proposals/labels/Category%3A%20Web%20Components)** | Proposals for web components. Also consider reviewing [the webcomponents incubation issue tracker](https://github.com/w3c/webcomponents/issues) | [Web Components](https://discourse.wicg.io/c/web-components/9) |
 | **[Web Apps](https://github.com/WICG/proposals/labels/Category%3A%20Web%20Apps)** | Proposals related to bringing App-like behavior to the web | n/a |
 
-To help bridge Discourse discussions with those happening in this repo, we plan to setup an automated
-system to notify the Discourse community when new proposals are started in this repo.
 
+## Evolving from Discourse
+
+Previously, we used [Discourse discussions](https://discourse.wicg.io/) for anything that 
+wasn't an official incubation (i.e., an incubation with its own repo). That forum was host
+to all discussions, early explorations, suggestions, and proposals for the web platform. 
+The goal was to help establish our community where those who participated in developing 
+web standards and those who didn't have the time but still wanted to influence/advance the
+web could mingle and share ideas. In short, bringing together the broadest possible 
+community of interested developers to give and receive feedback. Our goal was largely 
+successful.
+
+As time passed, the developer ecosystem shifted. We now see that GitHub has a larger 
+community of web developer interest than ever before, is the primary host of specification
+development for major web standards organizations and has great tools and integration for
+project and issue management. We also see an opportunity to provide more direct guidance
+on how to start an incubation, by creating this dedicated home for future incubations to
+be proposed that is distinct from other ideas, explorations, and discussions about the web 
+platform.
+
+This proposals repo will meet these changing needs. Here in GitHub you can easily extend your
+existing repo and issue monitoring techniques to keep track of what's being proposed.
+Additionally, this gives us a chance to clarify the WICG process for starting new incubations:
+rather than ask that proposals for new incubations be started on Discourse (intermingled with
+all other Discourse conversations), instead ideas should be filed as issues here in
+this repo, making it clear that these proposal issues intend to begin life as an incubation.
+Our expectations for evaluation of new proposals remains the same: as soon as sufficient interest
+is shown in the proposal's issue thread (notably from potential implementers), the WICG chairs
+will enable a team of editors to manage the proposal, and those team members can begin work in
+a new repo or move ownership of an existing GitHub repo to WICG. For more information about the
+evaluation and incubation process, see
+[the admin repo's README file](https://github.com/WICG/admin/blob/gh-pages/README.md).
