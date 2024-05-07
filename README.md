@@ -46,11 +46,6 @@ a new repo or move ownership of an existing GitHub repo to WICG. For more inform
 evaluation and incubation process, see
 [the admin repo's README file](https://github.com/WICG/admin/blob/gh-pages/README.md).
 
-We continue to recommend that our community participate in Discourse for less well-formed ideas
-to germinate, for early explorations, and for other discussions. As these ideas, explorations,
-and discussions mature, they may form into a proposal which should then be filed as an issue in
-this repo.
-
 ## What does a proposal look like?
 
 A proposal outlines a particular problem or challenge on the web and offers a potential concrete
